@@ -12,13 +12,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "PRODUTO")
-public class ProdutoEntity {
+@Table(name = "PRODUCT")
+public class ProductEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	private String nome;
-	private Double preco;
+	private String name;
+	private Double price;
 	
 }

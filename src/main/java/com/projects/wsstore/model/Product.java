@@ -7,10 +7,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Produto {
+public class Product {
 
 	private Integer id;
-	private String  nome;
-	private Double  preco;
+	private String  name;
+	private Double  price;
 	
 }
