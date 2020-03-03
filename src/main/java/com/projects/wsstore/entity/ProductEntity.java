@@ -24,7 +24,7 @@ public class ProductEntity {
 	private Double price;
 	
 	@ManyToOne
-	@JoinColumn(name="compra_id")
-	private CompraEntity compra;
+	@JoinColumn(name="purchase_id")
+	private PurchaseEntity purchase;
 	
 }

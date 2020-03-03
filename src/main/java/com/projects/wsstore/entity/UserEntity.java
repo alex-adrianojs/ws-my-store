@@ -30,6 +30,6 @@ public class UserEntity {
 	private Integer fone;
 	
 	@OneToMany(mappedBy = "user")
-	private List<CompraEntity> compras = new ArrayList<>();
+	private List<PurchaseEntity> purchases = new ArrayList<>();
 
 }

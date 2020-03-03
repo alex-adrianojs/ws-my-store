@@ -21,8 +21,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "COMPRA")
-public class CompraEntity {
+@Table(name = "PURCHASE")
+public class PurchaseEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -35,7 +35,7 @@ public class CompraEntity {
 	@JoinColumn(name="user_id")
 	private UserEntity user;
 	
-	@OneToMany(mappedBy = "compra")
-	private List<ProductEntity> produtos = new ArrayList<>();
+	@OneToMany(mappedBy = "purchase")
+	private List<ProductEntity> products = new ArrayList<>();
 	
 }
