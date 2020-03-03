@@ -8,8 +8,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -17,19 +21,21 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "USER")
-public class UserEntity {
-	
+@Table(name = "PURCHASE")
+public class PurchaseEntity {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	private String name;
-	private String email;
-	private String password;
-	private Date birthday;
-	private Integer fone;
 	
-	@OneToMany(mappedBy = "user")
-	private List<PurchaseEntity> purchases = new ArrayList<>();
-
+	@JsonFormat(pattern = "dd/MM/yyyy HH:mm")
+	private Date instant;
+	
+	@ManyToOne
+	@JoinColumn(name="user_id")
+	private UserEntity user;
+	
+	@OneToMany(mappedBy = "purchase")
+	private List<ProductEntity> products = new ArrayList<>();
+	
 }
