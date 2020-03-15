@@ -9,11 +9,11 @@ import lombok.Setter;
 public class User {
 	
 	private Integer id;
-	private String name;
-	private String email;
-	private String password;
-	private Date birthday;
+	private String  name;
+	private String  email;
+	private String  password;
+	private Date    birthday;
 	private Integer fone;
-	private String profile;
+	private String  profile;
 
 }
