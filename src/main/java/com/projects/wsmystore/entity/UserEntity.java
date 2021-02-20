@@ -1,4 +1,4 @@
-package com.projects.wsstore.entity;
+package com.projects.wsmystore.entity;
 
 import java.util.ArrayList;
 import java.util.Date;

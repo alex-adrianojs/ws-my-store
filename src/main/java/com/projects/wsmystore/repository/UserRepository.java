@@ -1,8 +1,8 @@
-package com.projects.wsstore.repository;
+package com.projects.wsmystore.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.projects.wsstore.entity.UserEntity;
+import com.projects.wsmystore.entity.UserEntity;
 
 public interface UserRepository extends JpaRepository<UserEntity, Integer> {
 

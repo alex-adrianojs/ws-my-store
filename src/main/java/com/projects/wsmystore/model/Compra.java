@@ -1,4 +1,4 @@
-package com.projects.wsstore.model;
+package com.projects.wsmystore.model;
 
 import java.util.Date;
 
@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.projects.wsstore.entity.UserEntity;
+import com.projects.wsmystore.entity.UserEntity;
 
 import lombok.Getter;
 import lombok.Setter;

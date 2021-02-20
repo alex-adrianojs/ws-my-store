@@ -1,12 +1,12 @@
-package com.projects.wsstore.service;
+package com.projects.wsmystore.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.projects.wsstore.entity.ProductEntity;
-import com.projects.wsstore.mapper.ProductMapper;
-import com.projects.wsstore.model.Product;
-import com.projects.wsstore.repository.ProductRepository;
+import com.projects.wsmystore.entity.ProductEntity;
+import com.projects.wsmystore.mapper.ProductMapper;
+import com.projects.wsmystore.model.Product;
+import com.projects.wsmystore.repository.ProductRepository;
 
 @Service
 public class ProductService {

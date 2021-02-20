@@ -1,4 +1,4 @@
-package com.projects.wsstore.entity;
+package com.projects.wsmystore.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,12 +1,12 @@
-package com.projects.wsstore.service;
+package com.projects.wsmystore.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.projects.wsstore.entity.UserEntity;
-import com.projects.wsstore.mapper.UserMapper;
-import com.projects.wsstore.model.User;
-import com.projects.wsstore.repository.UserRepository;
+import com.projects.wsmystore.entity.UserEntity;
+import com.projects.wsmystore.mapper.UserMapper;
+import com.projects.wsmystore.model.User;
+import com.projects.wsmystore.repository.UserRepository;
 
 @Service
 public class UserService {

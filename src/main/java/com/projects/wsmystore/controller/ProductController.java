@@ -1,4 +1,4 @@
-package com.projects.wsstore.controller;
+package com.projects.wsmystore.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.projects.wsstore.model.Product;
-import com.projects.wsstore.service.ProductService;
+import com.projects.wsmystore.model.Product;
+import com.projects.wsmystore.service.ProductService;
 
 @Controller
 @RequestMapping("/ws-store/product")

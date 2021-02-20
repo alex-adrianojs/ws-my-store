@@ -1,4 +1,4 @@
-package com.projects.wsstore.model;
+package com.projects.wsmystore.model;
 
 import javax.persistence.Entity;
 

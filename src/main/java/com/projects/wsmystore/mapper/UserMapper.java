@@ -1,9 +1,9 @@
-package com.projects.wsstore.mapper;
+package com.projects.wsmystore.mapper;
 
 import org.modelmapper.ModelMapper;
 
-import com.projects.wsstore.entity.UserEntity;
-import com.projects.wsstore.model.User;
+import com.projects.wsmystore.entity.UserEntity;
+import com.projects.wsmystore.model.User;
 
 
 public class UserMapper {

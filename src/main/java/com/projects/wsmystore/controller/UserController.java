@@ -1,4 +1,4 @@
-package com.projects.wsstore.controller;
+package com.projects.wsmystore.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.projects.wsstore.model.User;
-import com.projects.wsstore.service.UserService;
+import com.projects.wsmystore.model.User;
+import com.projects.wsmystore.service.UserService;
 
 @Controller
 @RequestMapping("/ws-store/user")

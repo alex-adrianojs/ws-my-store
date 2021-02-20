@@ -1,9 +1,9 @@
-package com.projects.wsstore.mapper;
+package com.projects.wsmystore.mapper;
 
 import org.modelmapper.ModelMapper;
 
-import com.projects.wsstore.entity.ProductEntity;
-import com.projects.wsstore.model.Product;
+import com.projects.wsmystore.entity.ProductEntity;
+import com.projects.wsmystore.model.Product;
 
 
 public class ProductMapper {
